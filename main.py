@@ -23,8 +23,8 @@ from telebot import types
 # -------------------------
 # CONFIG: token & main admin
 # -------------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN") or "8596497963:AAF1ofe2MAzJdo5w9iryI1npsIF13Go1MUo"
-MAIN_ADMIN = int(os.environ.get("MAIN_ADMIN") or 5013805564)  # change to your id
+BOT_TOKEN = os.environ.get("BOT_TOKEN") or "YOURTOKENHERE"
+MAIN_ADMIN = int(os.environ.get("MAIN_ADMIN") or YOURIDHERE)  # change to your id
 # Note: Confessions will be posted to channels stored in DB. No single CHANNEL_ID here.
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
